@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: https://github.com/ashalekote-cell/mymavenpipeline
+                git branch: 'main', url: 'https://github.com/ashalekote-cell/mymavenpipeline'
             }
         }
 
